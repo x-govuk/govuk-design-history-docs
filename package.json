@@ -1,0 +1,39 @@
+{
+  "name": "govuk-design-history",
+  "version": "1.0.0",
+  "description": "A design history for your GOV.UK service",
+  "homepage": "https://x-govuk.github.io/govuk-design-history",
+  "bugs": {
+    "url": "https://github.com/x-govuk/govuk-design-history/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x-govuk/govuk-design-history.git"
+  },
+  "scripts": {
+    "build": "eleventy --quiet",
+    "start": "eleventy --serve --quiet",
+    "lint": "standard && stylelint '**/*.scss'"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "govuk-eleventy-plugin": "^3.0.2"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "stylelint": "^14.14.0",
+    "stylelint-config-gds": "^0.2.0"
+  },
+  "engines": {
+    "node": "^16.0.0"
+  },
+  "private": true,
+  "standard": {
+    "ignore": [
+      "!.eleventy.js"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-gds/scss"
+  }
+}
