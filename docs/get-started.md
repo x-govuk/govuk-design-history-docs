@@ -55,8 +55,10 @@ Before adding posts, you’ll probably want to customise a few things for the si
 
 ### Change the name of the website
 
-1. Open the file `app/_data/app.js`
-2. Change the value for `productName` to the name you want to use. This name will appear in the header, and in page titles.
+1. Open the file `eleventy.config.js`
+2. Within the options for `@x-govuk/govuk-eleventy-plugin`, change the value for `productName` to the name you want to use. This name will appear in the header.
+
+You can also change the organisation name and logo, as well as other aspects of the header. See [header options](https://x-govuk.github.io/govuk-eleventy-plugin/options/#options-for-header) in the documentation for the `@x-govuk/govuk-eleventy-plugin`.
 
 ### Update the homepage
 
@@ -66,10 +68,12 @@ Before adding posts, you’ll probably want to customise a few things for the si
 
 ### Update the footer
 
-If you want to link to other tools your team uses, you can place these links in the footer.
+If you want to link to other tools your team uses, you can place these in the footer.
 
-1. Open the file `app/_layouts/base.njk`
-2. Near the bottom of this file, you’ll notice there is a Nunjucks component called `govukFooter`. The design history project uses components from the GOV.UK Design System, and this is an example of that. Follow the [guidance on the design system website for how you can adapt the footer](https://design-system.service.gov.uk/components/footer/) to suit your needs.
+1. Open the file `eleventy.config..js`
+2. Within the options for `@x-govuk/govuk-eleventy-plugin`, add values for the `footer` option. This option takes the same values as those for the [footer component](https://design-system.service.gov.uk/components/footer/), allowing you to add navigation sections and links.
+
+You can also change the copyright statement and content licence. See [footer options](https://x-govuk.github.io/govuk-eleventy-plugin/options/#options-for-footer) in the documentation for the `@x-govuk/govuk-eleventy-plugin`.
 
 ## Document
 
