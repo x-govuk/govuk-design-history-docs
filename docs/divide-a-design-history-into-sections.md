@@ -17,16 +17,25 @@ You can group posts together into sections using folders:
 
 3. This is a [directory data file](https://www.11ty.dev/docs/data-template-dir/), and it can be used to set the default values for all posts that sit within this folder.
 
-4. In this JSON file, declare a tag which should be used to group these related posts, and a parent name to use in the breadcrumb navigation (the parent being the name of this section). For example
+4. In this JSON file, declare a the parent to use in the breadcrumb navigation (the parent being the name of this section). For example
 
    ```json
    {
-     "tags": ["support-interface"],
      "eleventyNavigation": {
        "parent": "Service support interface"
      }
    }
    ```
+   
+## Create a collection for each section
+
+Next, in the `eleventy.config.js` config file, add some code to add all the posts within the service folder to a named collection. Copy and paste the following lines for each folder you need to add, changing `support-interface` to whatever the folder is named.
+
+```js
+  eleventyConfig.addCollection('support-interface', collection => {
+    return collection.getFilteredByGlob('app/posts/support-interface/*.md')
+  })
+```
 
 ## Create an index page for each section
 
@@ -53,7 +62,7 @@ Next, create a page that lists these related posts. You can do that by creating 
 
    {% endraw %}
 
-   The value for `pagination.data` should use the collection created by the tag you added to the JSON file for the section. This tells the index page which posts to list. For example, if your tag is `support-interface`, the value for `pagination.data` would be `collections.support-interface`.
+   The value for `pagination.data` should use the collection created by the code you added to the `eleventy.config.js` file for the section. This tells the index page which posts to list. For example, if your collection is named `support-interface`, the value for `pagination.data` would be `collections.support-interface`.
 
    You do not need to add any body content, but if you do, this will appear above the list of posts in this section.
 
@@ -66,8 +75,6 @@ Currently the homepage lists all posts on the site. Change it so that only secti
      data: collections.post
      reverse: true
      size: 50
-   posts:
-     title: Getting started
    ```
 
 You can change the content of the heading on the homepage by adding these lines to `app/index.md`:
