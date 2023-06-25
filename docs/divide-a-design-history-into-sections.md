@@ -29,7 +29,9 @@ You can group posts together into sections using folders:
    
 ## Create a collection for each section
 
-Next, in the `eleventy.config.js` config file, add some code to add all the posts within the service folder to a named collection. Copy and paste the following lines for each folder you need to add, changing `support-interface` to whatever the folder is named.
+Next, in the `eleventy.config.js` configuration file, use Eleventy’s [`addCollection` method](https://www.11ty.dev/docs/collections/#advanced-custom-filtering-and-sorting) to collect all Markdown files within the folder you created for your section.
+
+For example, to create a collection named `support-interface` that looks for posts in the `app/posts/support-interface` folder, add the following:
 
 ```js
   eleventyConfig.addCollection('support-interface', collection => {
@@ -62,7 +64,9 @@ Next, create a page that lists these related posts. You can do that by creating 
 
    {% endraw %}
 
-   The value for `pagination.data` should use the collection created by the code you added to the `eleventy.config.js` file for the section. This tells the index page which posts to list. For example, if your collection is named `support-interface`, the value for `pagination.data` would be `collections.support-interface`.
+   The value for `pagination.data` should use the same name as that used for the collection in the `eleventy.config.js` configuration file. This tells the index page which posts to list.
+   
+   For example, if your collection is named `support-interface`, the value for `pagination.data` would be `collections.support-interface`.
 
    You do not need to add any body content, but if you do, this will appear above the list of posts in this section.
 
