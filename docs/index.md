@@ -5,7 +5,7 @@ includeInBreadcrumbs: true
 title: A design history for your GOV.UK service
 description: Document and share design decisions. Create a permanent record of how your service has developed over time.
 image:
-  src: /assets/homepage-illustration.png
+  src: /assets/homepage-illustration.svg
   alt: Eleventy’s possum mascot hanging on a red balloon and floating above a laptop.
 startButton:
   href: /get-started

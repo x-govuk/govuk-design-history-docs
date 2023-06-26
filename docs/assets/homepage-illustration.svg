@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500">
+  <path fill="#0B0C0C" fill-opacity=".8" d="M486 260h114v20H486Zm-376 0h20v20h-20Z"/>
+  <path fill="#FFF" d="M530 22h26v236h-26z"/>
+  <path fill="#6F72AF" stroke="#4E5079" stroke-width="4" d="M586 22v236h-56V22h56Zm-28 190a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z"/>
+  <path fill="#F3F2F1" d="M542 34h32v96h-32z"/>
+  <text fill="#505A5F" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing=".5" transform="rotate(-90 304.5 -172)">
+    <tspan x="10" y="86">2022</tspan>
+  </text>
+  <path fill="#FFF" d="M470 22h56v210h-56z"/>
+  <path fill="#D53880" stroke="#922959" stroke-width="4" d="M526 22v236h-44v-21a5 5 0 0 0-5-5h-7V22h56Zm-28 190a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z"/>
+  <path fill="#F3F2F1" d="M482 34h32v96h-32z"/>
+  <text fill="#505A5F" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing=".5" transform="rotate(-90 274.5 -140.5)">
+    <tspan x="11.5" y="87.5">2021</tspan>
+  </text>
+  <path fill="#FFF" d="M410 22h32v210h-32z"/>
+  <path fill="#912B88" stroke="#65215F" stroke-width="4" d="M466 22v210h-28a10 10 0 1 0 0-20 10 10 0 0 0 0 20h-28V22h56Z"/>
+  <path fill="#F3F2F1" d="M422 34h32v96h-32z"/>
+  <text fill="#505A5F" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing=".5" transform="rotate(-90 244.5 -112.5)">
+    <tspan x="9.5" y="85.5">2020</tspan>
+  </text>
+  <path fill="#FFF" d="M350 22h34v210h-34z"/>
+  <path fill="#4C2C92" stroke="#372165" stroke-width="4" d="M406 22v210h-28a10 10 0 1 0 0-20 10 10 0 0 0 0 20h-28V22h56Z"/>
+  <path fill="#F3F2F1" d="M362 34h32v96h-32z"/>
+  <text fill="#505A5F" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing=".5" transform="rotate(-90 214.5 -80.5)">
+    <tspan x="11.5" y="87.5">2019</tspan>
+  </text>
+  <path fill="#FFF" d="M290 22h28v210h-28z"/>
+  <path fill="#003078" stroke="#042454" stroke-width="4" d="M346 22v210h-28a10 10 0 1 0 0-20 10 10 0 0 0 0 20h-28V22h56Z"/>
+  <path fill="#F3F2F1" d="M302 34h32v96h-32z"/>
+  <text fill="#505A5F" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing=".5" transform="rotate(-90 184.5 -50.5)">
+    <tspan x="11.5" y="87.5">2018</tspan>
+  </text>
+  <path fill="#FFF" d="M138 236h340v230H138z" opacity=".3"/>
+  <path fill="#1E1E1E" fill-rule="nonzero" d="M476.4 228.5c5.6 0 9.1 3.8 9.1 9.8v238.2h-355V238.3c0-6 3.5-9.8 9-9.8h337ZM280 236H142a4 4 0 0 0-4 4v226h340V240a4 4 0 0 0-4-4H336v6a3 3 0 0 1-3 3h-50a3 3 0 0 1-3-3v-6Z"/>
+  <path fill="#EDEDED" fill-rule="nonzero" d="M486 476h-1V237.5c0-5-3.5-8.5-8.5-8.5h-337c-5 0-8.5 3.5-8.5 8.5V476h-1V237.5c0-5.5 4-9.5 9.5-9.5h337c5.5 0 9.5 4 9.5 9.5V476Z"/>
+  <path fill="#808283" fill-rule="nonzero" d="M269 476h78v7h-78z"/>
+  <path fill="#B1B4B6" fill-rule="nonzero" d="M339.5 482.5H276c-5 0-6.5-3-6.5-6.5H80v10a8 8 0 0 0 8 8h440a8 8 0 0 0 8-8v-10H346.5c0 4-2 6.5-7 6.5Z"/>
+  <path fill="none" stroke="#EDEDED" d="M536 476.5H346.5c0 4-2.5 6-6.5 6h-64c-4 0-6.5-2-6.5-6H80"/>
+  <path fill="#A5A9AB" fill-rule="nonzero" d="M80 486v.1a8 8 0 0 0 8 7.9h440a7.9 7.9 0 0 0 7.9-8 8.5 8.5 0 0 1-5.5 2H86c-2.1 0-4.2-.7-5.9-2Z"/>
+  <path fill="#000" fill-opacity=".5" fill-rule="nonzero" d="M105 496h406l20 4H85z"/>
+  <path fill="#505A5F" fill-rule="nonzero" d="m107.4 494 5.7 3h38.6l5.7-3zm352 0 5.7 3h38.6l5.7-3z"/>
+  <path fill="#FFF" fill-rule="nonzero" stroke="#0B0C0C" stroke-width="2" d="M179 280h258v148H179z"/>
+  <path fill="#0B0C0C" fill-rule="nonzero" d="M179 280h258v28H179z"/>
+  <path fill="#B1B4B6" fill-rule="nonzero" d="M196 322h82v9h-82v-9Zm0 18h166v9H196v-9Zm0 18h150v9H196v-9Zm0 18h166v9H196v-9Zm0 18h160v9H196v-9Zm0 18h166v9H196v-9Z"/>
+  <text fill="#FFF" font-family="system-ui, sans-serif" font-size="16" transform="translate(180 280)">
+    <tspan x="16" y="20">Design history</tspan>
+  </text>
+  <circle cx="86" cy="86" r="82" fill="#0B0C0C" fill-opacity=".5" opacity=".2"/>
+  <circle cx="82" cy="82" r="78" fill="#FFF" stroke="#003078" stroke-width="8"/>
+  <g fill="#B1B4B6" transform="translate(16 16)">
+    <circle cx="66" cy="5" r="5"/>
+    <circle cx="66" cy="127" r="5"/>
+    <circle cx="96.5" cy="13.2" r="5" transform="rotate(30 96.5 13.2)"/>
+    <circle cx="35.5" cy="118.8" r="5" transform="rotate(30 35.5 118.8)"/>
+    <circle cx="118.8" cy="35.5" r="5" transform="rotate(60 118.8 35.5)"/>
+    <circle cx="13.2" cy="96.5" r="5" transform="rotate(60 13.2 96.5)"/>
+    <circle cx="127" cy="66" r="5" transform="rotate(90 127 66)"/>
+    <circle cx="5" cy="66" r="5" transform="rotate(90 5 66)"/>
+    <circle cx="118.8" cy="96.5" r="5" transform="rotate(120 118.8 96.5)"/>
+    <circle cx="13.2" cy="35.5" r="5" transform="rotate(120 13.2 35.5)"/>
+    <circle cx="96.5" cy="118.8" r="5" transform="rotate(150 96.5 118.8)"/>
+    <circle cx="35.5" cy="13.2" r="5" transform="rotate(150 35.5 13.2)"/>
+  </g>
+  <g transform="rotate(-30 115.2 -79.1)">
+    <path fill="#D4351C" d="M3 0h6v44H3z"/>
+    <path fill="#D4351C" d="M58 42v4H6v-4z"/>
+    <circle cx="6" cy="44" r="6" fill="#505A5F"/>
+  </g>
+</svg>
