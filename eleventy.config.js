@@ -20,12 +20,11 @@ module.exports = function (eleventyConfig) {
       url: 'https://x-govuk.github.io/#projects',
       name: 'X-GOVUK projects'
     },
-    url: process.env.GITHUB_ACTIONS
-      ? 'https://x-govuk.github.io/govuk-design-history/'
-      : '/',
+    url:
+      process.env.GITHUB_ACTIONS &&
+      'https://x-govuk.github.io/govuk-design-history/',
     header: {
-      organisationLogo: 'x-govuk',
-      organisationName: 'X-GOVUK',
+      logotype: 'x-govuk',
       productName: 'Design History',
       search: {
         indexPath: '/search.json',
@@ -55,6 +54,6 @@ module.exports = function (eleventyConfig) {
       input: 'docs',
       layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
     },
-    pathPrefix: process.env.GITHUB_ACTIONS ? '/govuk-design-history/' : '/'
+    pathPrefix: process.env.GITHUB_ACTIONS && '/govuk-design-history/'
   }
 }
