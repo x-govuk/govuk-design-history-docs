@@ -3,15 +3,12 @@ layout: sub-navigation
 order: 3
 title: Case study
 description: Learn how keeping a design history helped the DfE’s Becoming a Teacher team document the evolution of their services.
-linkText: Read the case study
 related:
   sections:
     - title: Related content
       items:
         - text: Becoming a teacher design history
           href: https://bat-design-history.netlify.app/
-tags:
-  - homepage
 ---
 
 On the Becoming a teacher team, we've been using a design history to document the evolution of the Find postgraduate teacher training and Apply for teacher training services since they began in May 2018.

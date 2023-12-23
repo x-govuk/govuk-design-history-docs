@@ -2,10 +2,7 @@
 layout: sub-navigation
 order: 2
 title: What is a design history?
-description: A design history can help your team log design decisions and create a permanent record of how your service has developed over time.
-linkText: Read the introduction
-tags:
-  - homepage
+description: A design history can help teams log design decisions and create a permanent record of how a service has developed over time.
 ---
 
 When designing and building a service, it can be easy to forget why previous decisions were made, even more so as new people join the team and others leave. A design history can help by creating a permanent record.

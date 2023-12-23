@@ -42,6 +42,17 @@ module.exports = function (eleventyConfig) {
     }
   })
 
+  // Collections
+  eleventyConfig.addCollection('homepage', (collection) =>
+    collection
+      .getFilteredByGlob([
+        'docs/introduction.md',
+        'docs/case-study.md',
+        'docs/directory.md'
+      ])
+      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0))
+  )
+
   // Pass through
   eleventyConfig.addPassthroughCopy('./docs/assets')
 

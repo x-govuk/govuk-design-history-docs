@@ -2,7 +2,7 @@
 layout: sub-navigation
 order: 6
 title: Directory
-description: Design histories managed using this project.
+description: A list of design histories managed using this project.
 ---
 
 ### Department for Education
