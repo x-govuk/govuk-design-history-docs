@@ -10,6 +10,7 @@ image:
 startButton:
   href: /get-started
 ---
+
 <div class="govuk-grid-row">
 {% for item in collections["homepage"] | reverse %}
   <section class="govuk-grid-column-one-half-from-desktop govuk-!-margin-bottom-8">

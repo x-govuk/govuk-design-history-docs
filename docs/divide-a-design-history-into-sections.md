@@ -26,7 +26,7 @@ You can group posts together into sections using folders:
      }
    }
    ```
-   
+
 ## Create a collection for each section
 
 Next, in the `eleventy.config.js` configuration file, use Eleventy’s [`addCollection` method](https://www.11ty.dev/docs/collections/#advanced-custom-filtering-and-sorting) to collect all Markdown files within the folder you created for your section.
@@ -65,7 +65,7 @@ Next, create a page that lists these related posts. You can do that by creating 
    {% endraw %}
 
    The value for `pagination.data` should use the same name as that used for the collection in the `eleventy.config.js` configuration file. This tells the index page which posts to list.
-   
+
    For example, if your collection is named `support-interface`, the value for `pagination.data` would be `collections.support-interface`.
 
    You do not need to add any body content, but if you do, this will appear above the list of posts in this section.
@@ -74,16 +74,16 @@ Next, create a page that lists these related posts. You can do that by creating 
 
 Currently the homepage lists all posts on the site. Change it so that only sections are linked to instead by removing these lines from `app/index.md`:
 
-   ```yaml
-   pagination:
-     data: collections.post
-     reverse: true
-     size: 50
-   ```
+```yaml
+pagination:
+  data: collections.post
+  reverse: true
+  size: 50
+```
 
 You can change the content of the heading on the homepage by adding these lines to `app/index.md`:
 
-   ```yaml
-   sections:
-     title: Services
-   ```
+```yaml
+sections:
+  title: Services
+```

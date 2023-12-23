@@ -13,10 +13,10 @@ related:
 
 This project makes it easy to:
 
-* create pages of screenshots to document designs
-* document designs using the [GOV.UK Design System](https://design-system.service.gov.uk/)
-* print pages of designs
-* make designs shareable and linkable
+- create pages of screenshots to document designs
+- document designs using the [GOV.UK Design System](https://design-system.service.gov.uk/)
+- print pages of designs
+- make designs shareable and linkable
 
 The project is built using the [Eleventy static site generator](https://www.11ty.dev/), meaning your design history site can be adapted as a service grows. This post describes how to get started.
 
@@ -81,26 +81,26 @@ You’re now ready to start documenting your designs. To add a new post:
 
 1. Create a new file in the app/posts folder. Files should be named using the format `YYYY-MM-DD-slug.md`, where:
 
-    * `YYYY` is the year
-    * `MM` is the month
-    * `DD` is the day
-    * `slug` is the text you want to appear in the URL
+   - `YYYY` is the year
+   - `MM` is the month
+   - `DD` is the day
+   - `slug` is the text you want to appear in the URL
 
-    For example: `2020-02-19-first-designs.md` will create a page that can be reached at `<your-design-history>/first-designs/`
+   For example: `2020-02-19-first-designs.md` will create a page that can be reached at `<your-design-history>/first-designs/`
 
 2. Posts are made up of 2 parts: a front matter and its contents.
 
    A front matter starts and ends with `---` and is written using a key/value data format called YAML. In most cases, you will only need three bits of information: `title`, `description` and `date`. For example:
 
-    ``` yaml
-    ---
-    title: First designs for a minimum viable service
-    description: A minimum viable service that could allow the providers to access and manage their ITT applications.
-    date: 2020-02-19
-    ---
-    ```
+   ```yaml
+   ---
+   title: First designs for a minimum viable service
+   description: A minimum viable service that could allow the providers to access and manage their ITT applications.
+   date: 2020-02-19
+   ---
+   ```
 
-    The content portion of a post uses Markdown, a lightweight markup language used to add formatting elements to plaintext text documents. You can [learn more about writing Markdown with this guide](https://www.markdownguide.org).
+   The content portion of a post uses Markdown, a lightweight markup language used to add formatting elements to plaintext text documents. You can [learn more about writing Markdown with this guide](https://www.markdownguide.org).
 
 3. Save the file, and visit the browser. You should see your new post listed on the home page.
 
@@ -118,8 +118,8 @@ The process is very similar to [setting up a prototype on Heroku](https://govuk-
 
 We’ve found it’s better to keep a design history public. But if you need to password protect yours, you can add a username and password using environment variables (Heroku calls these “config vars”):
 
-* set `USERNAME` and `PASSWORD` environment [variables on your Heroku app](https://devcenter.heroku.com/articles/config-vars#managing-config-vars)
-* update the [`Procfile`](https://devcenter.heroku.com/articles/procfile) in the root folder with the following content:
+- set `USERNAME` and `PASSWORD` environment [variables on your Heroku app](https://devcenter.heroku.com/articles/config-vars#managing-config-vars)
+- update the [`Procfile`](https://devcenter.heroku.com/articles/procfile) in the root folder with the following content:
 
 ```text
 web: http-server --username $USERNAME --password $PASSWORD -p $PORT
