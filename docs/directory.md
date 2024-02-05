@@ -5,6 +5,10 @@ title: Directory
 description: A list of design histories managed using this project.
 ---
 
+### Crown Commercial Service
+
+- [Supplier Information Service](https://si-design-history.netlify.app/)
+
 ### Department for Education
 
 - [Becoming a teacher](https://bat-design-history.netlify.app)
@@ -18,14 +22,10 @@ description: A list of design histories managed using this project.
 
 - [Submit data on social housing sales and lettings (aka CORE)](https://core-design-history.herokuapp.com)
 
-### Ministry of Justice
-
-- [Manage supervisions](https://manage-supervisions-design-history.apps.live.cloud-platform.service.justice.gov.uk)
-
-### Crown Commercial Service
-
-- [Supplier Information Service](https://si-design-history.netlify.app/)
-
 ### HMRC
 
 - [New computerised transit system phase 5 (aka NCTS5)](https://ncts5-design-history.netlify.app/)
+
+### Ministry of Justice
+
+- [Manage supervisions](https://manage-supervisions-design-history.apps.live.cloud-platform.service.justice.gov.uk)
