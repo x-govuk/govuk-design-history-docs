@@ -29,3 +29,7 @@ description: A list of design histories managed using this project.
 ### Ministry of Justice
 
 - [Manage supervisions](https://manage-supervisions-design-history.apps.live.cloud-platform.service.justice.gov.uk)
+
+### Ofqual
+
+- [Design histories for Ofqual digital services](https://design-histories.ofqual.gov.uk)
