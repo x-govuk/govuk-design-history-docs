@@ -18,6 +18,10 @@ description: A list of design histories managed using this project.
 - [Teacher CPD](https://teacher-cpd-design-history.herokuapp.com)
 - [TRA Digital](https://tra-digital-design-history.herokuapp.com)
 
+### Department for Environment, Food & Rural Affairs
+
+- [Air quality design history](https://defra-design.github.io/aqie-design-history/)
+
 ### Department for Levelling Up, Housing & Communities
 
 - [Submit data on social housing sales and lettings (aka CORE)](https://core-design-history.herokuapp.com)
