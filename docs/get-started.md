@@ -118,7 +118,7 @@ The process is very similar to [setting up a prototype on Heroku](https://govuk-
 
 We’ve found it’s better to keep a design history public.
 
-If you need to make yours provate, you can add a username and password using “[Config vars](https://devcenter.heroku.com/articles/config-vars#managing-config-vars)” on Heroku.
+If you need to make yours private, you can add a username and password using “[Config vars](https://devcenter.heroku.com/articles/config-vars#managing-config-vars)” on Heroku.
 
 From the Settings page, add 2 items with the keys `NODE_HTTP_SERVER_USERNAME` and `NODE_HTTP_SERVER_PASSWORD` and setting a username and password in the values (you can use the same phrase for both).
 
