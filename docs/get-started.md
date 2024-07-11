@@ -116,14 +116,11 @@ The process is very similar to [setting up a prototype on Heroku](https://govuk-
 
 #### Password protect your design history
 
-We’ve found it’s better to keep a design history public. But if you need to password protect yours, you can add a username and password using environment variables (Heroku calls these “config vars”):
+We’ve found it’s better to keep a design history public.
 
-- set `USERNAME` and `PASSWORD` environment [variables on your Heroku app](https://devcenter.heroku.com/articles/config-vars#managing-config-vars)
-- update the [`Procfile`](https://devcenter.heroku.com/articles/procfile) in the root folder with the following content:
+If you need to make yours private, you can add a username and password using “[Config vars](https://devcenter.heroku.com/articles/config-vars#managing-config-vars)” on Heroku.
 
-```text
-web: http-server --username $USERNAME --password $PASSWORD -p $PORT
-```
+From the Settings page, add 2 items with the keys `NODE_HTTP_SERVER_USERNAME` and `NODE_HTTP_SERVER_PASSWORD` and setting a username and password in the values (you can use the same phrase for both).
 
 ### Netlify
 
