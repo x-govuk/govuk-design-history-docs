@@ -86,7 +86,7 @@ screenshots:
 ---
 ```
 
-If you want to change the name of any images, you can use the `src` value to tell the screenshots component what filename to look for, for example:
+If you want to change the title of any image, add a caption, or set more detailed alternative text, you can do that by setting the `text`, `src`, `alt` and `caption`:
 
 ```yaml
 title: Submit personal details
@@ -95,6 +95,11 @@ screenshots:
   items:
     - text: "Index page"
       src: a-different-index-page-image.jpg
+      alt: Screenshot of page with the title 'Index page' and 5 posts listed
+      caption: |
+        You can include captions with each image, and 
+        each caption can include markdown. This is a 
+        screenshot of the [index page](/).
     - "Personal details"
     - "Check your answers"
     - "Confirmation"
