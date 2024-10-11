@@ -21,7 +21,7 @@
     "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "^3.0.0",
     "@x-govuk/govuk-eleventy-plugin": "^6.0.0"
   },
   "devDependencies": {
@@ -37,5 +37,6 @@
   "engines": {
     "node": ">=20.11"
   },
-  "private": true
+  "private": true,
+  "type": "module"
 }
