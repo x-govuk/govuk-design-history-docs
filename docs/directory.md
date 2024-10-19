@@ -15,7 +15,7 @@ description: A list of design histories managed using this project.
 - [Early years foundation stage framework](https://eyfs-design-history.netlify.app)
 - [Get help with remote education](https://remote-education-design-history.netlify.app)
 - [Get Into Teaching](https://get-into-teaching-design-history.netlify.app)
-- [Teacher CPD](https://teacher-cpd-design-history.herokuapp.com)
+- [Teacher CPD](https://teacher-cpd.design-history.education.gov.uk)
 - [TRA Digital](https://tra-digital-design-history.herokuapp.com)
 
 ### Department for Environment, Food & Rural Affairs
