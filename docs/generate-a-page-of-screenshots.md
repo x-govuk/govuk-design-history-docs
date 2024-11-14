@@ -97,8 +97,8 @@ screenshots:
       src: a-different-index-page-image.jpg
       alt: Screenshot of page with the title 'Index page' and 5 posts listed
       caption: |
-        You can include captions with each image, and 
-        each caption can include markdown. This is a 
+        You can include captions with each image, and
+        each caption can include markdown. This is a
         screenshot of the [index page](/).
     - "Personal details"
     - "Check your answers"
